@@ -1,0 +1,34 @@
+{
+  "admin": {
+    "dashboard": "Վահանակ",
+    "schools": "Դպրոցներ",
+    "users": "Օգտատերեր",
+    "quizzes": "Վիկտորինաներ",
+    "statistics": "Վիճակագրություն",
+    "addSchool": "Ավելացնել դպրոց",
+    "approveTeacher": "Հաստատել ուսուցչին",
+    "rejectTeacher": "Մերժել ուսուցչին",
+    "banUser": "Արգելափակել",
+    "totalUsers": "Ընդամենը օգտատեր",
+    "totalSchools": "Ընդամենը դպրոց",
+    "totalQuizzes": "Ընդամենը վիկտորինա",
+    "pendingTeachers": "Սպասող ուսուցիչներ"
+  },
+  "auth": {
+    "login": "Մուտք",
+    "email": "Էլ. փոստ",
+    "password": "Գաղտնաբառ"
+  },
+  "common": {
+    "loading": "Բեռնվում է...",
+    "save": "Պահպանել",
+    "cancel": "Չեղարկել",
+    "delete": "Ջնջել",
+    "edit": "Խմբագրել",
+    "search": "Որոնել",
+    "active": "Ակտիվ",
+    "pending": "Սպասող",
+    "rejected": "Մերժված",
+    "banned": "Արգելափակված"
+  }
+}

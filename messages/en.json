@@ -1,0 +1,34 @@
+{
+  "admin": {
+    "dashboard": "Dashboard",
+    "schools": "Schools",
+    "users": "Users",
+    "quizzes": "Quizzes",
+    "statistics": "Statistics",
+    "addSchool": "Add School",
+    "approveTeacher": "Approve Teacher",
+    "rejectTeacher": "Reject Teacher",
+    "banUser": "Ban User",
+    "totalUsers": "Total Users",
+    "totalSchools": "Total Schools",
+    "totalQuizzes": "Total Quizzes",
+    "pendingTeachers": "Pending Teachers"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "active": "Active",
+    "pending": "Pending",
+    "rejected": "Rejected",
+    "banned": "Banned"
+  }
+}

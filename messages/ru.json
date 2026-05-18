@@ -1,0 +1,34 @@
+{
+  "admin": {
+    "dashboard": "Панель",
+    "schools": "Школы",
+    "users": "Пользователи",
+    "quizzes": "Квизы",
+    "statistics": "Статистика",
+    "addSchool": "Добавить школу",
+    "approveTeacher": "Подтвердить учителя",
+    "rejectTeacher": "Отклонить учителя",
+    "banUser": "Заблокировать",
+    "totalUsers": "Всего пользователей",
+    "totalSchools": "Всего школ",
+    "totalQuizzes": "Всего квизов",
+    "pendingTeachers": "Ожидают подтверждения"
+  },
+  "auth": {
+    "login": "Войти",
+    "email": "Email",
+    "password": "Пароль"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "search": "Поиск",
+    "active": "Активен",
+    "pending": "Ожидает",
+    "rejected": "Отклонён",
+    "banned": "Заблокирован"
+  }
+}
