@@ -7,6 +7,7 @@ import {
   LayoutDashboard, School, Users, BookOpen, BarChart3,
   Shield, LogOut,
 } from 'lucide-react';
+import { LocaleSwitcher } from '@/components/ui/LocaleSwitcher';
 
 export function Sidebar() {
   const t = useTranslations('admin');
@@ -62,6 +63,11 @@ export function Sidebar() {
           );
         })}
       </nav>
+
+      {/* Locale Switcher */}
+      <div className="px-4 pb-2 flex justify-center">
+        <LocaleSwitcher />
+      </div>
 
       {/* Logout */}
       <div className="px-3 py-4 border-t border-white/10">
