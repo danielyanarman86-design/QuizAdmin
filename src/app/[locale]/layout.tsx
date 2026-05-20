@@ -4,7 +4,6 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Preloader } from '@/components/preloader/Preloader';
-import '../globals.css';
 
 export const metadata: Metadata = {
   title: 'QuizRush Admin',
@@ -27,13 +26,9 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className="dark">
-      <body className="bg-[#0a0a14] text-white antialiased">
-        <NextIntlClientProvider messages={messages}>
-          <Preloader />
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <Preloader />
+      {children}
+    </NextIntlClientProvider>
   );
 }
