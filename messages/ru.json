@@ -12,12 +12,27 @@
     "totalUsers": "Всего пользователей",
     "totalSchools": "Всего школ",
     "totalQuizzes": "Всего квизов",
-    "pendingTeachers": "Ожидают подтверждения"
+    "pendingTeachers": "Ожидают подтверждения",
+    "totalAttempts": "Всего попыток",
+    "avgScore": "Средний балл",
+    "usersByRole": "Пользователи по роли",
+    "usersByStatus": "Пользователи по статусу",
+    "teachers": "Учителя",
+    "students": "Ученики",
+    "noQuizzesYet": "Квизов пока нет",
+    "schoolName": "Название",
+    "schoolAddress": "Адрес",
+    "deleteSchoolConfirm": "Удалить эту школу?",
+    "deleteQuizConfirm": "Удалить этот квиз?",
+    "accessDenied": "Доступ запрещён. Только SuperAdmin.",
+    "loginFailed": "Ошибка входа",
+    "adminPanel": "Панель администратора"
   },
   "auth": {
     "login": "Войти",
     "email": "Email",
-    "password": "Пароль"
+    "password": "Пароль",
+    "logout": "Выйти"
   },
   "common": {
     "loading": "Загрузка...",
@@ -29,6 +44,18 @@
     "active": "Активен",
     "pending": "Ожидает",
     "rejected": "Отклонён",
-    "banned": "Заблокирован"
+    "banned": "Заблокирован",
+    "yes": "Да",
+    "no": "Нет",
+    "user": "Пользователь",
+    "role": "Роль",
+    "school": "Школа",
+    "status": "Статус",
+    "actions": "Действия",
+    "title": "Название",
+    "category": "Категория",
+    "author": "Автор",
+    "questions": "Вопросы",
+    "public": "Публичный"
   }
 }

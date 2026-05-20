@@ -12,12 +12,27 @@
     "totalUsers": "Total Users",
     "totalSchools": "Total Schools",
     "totalQuizzes": "Total Quizzes",
-    "pendingTeachers": "Pending Teachers"
+    "pendingTeachers": "Pending Teachers",
+    "totalAttempts": "Total Attempts",
+    "avgScore": "Avg Score",
+    "usersByRole": "Users by Role",
+    "usersByStatus": "Users by Status",
+    "teachers": "Teachers",
+    "students": "Students",
+    "noQuizzesYet": "No quizzes yet",
+    "schoolName": "Name",
+    "schoolAddress": "Address",
+    "deleteSchoolConfirm": "Delete this school?",
+    "deleteQuizConfirm": "Delete this quiz?",
+    "accessDenied": "Access denied. SuperAdmin only.",
+    "loginFailed": "Login failed",
+    "adminPanel": "Admin Panel"
   },
   "auth": {
     "login": "Login",
     "email": "Email",
-    "password": "Password"
+    "password": "Password",
+    "logout": "Logout"
   },
   "common": {
     "loading": "Loading...",
@@ -29,6 +44,18 @@
     "active": "Active",
     "pending": "Pending",
     "rejected": "Rejected",
-    "banned": "Banned"
+    "banned": "Banned",
+    "yes": "Yes",
+    "no": "No",
+    "user": "User",
+    "role": "Role",
+    "school": "School",
+    "status": "Status",
+    "actions": "Actions",
+    "title": "Title",
+    "category": "Category",
+    "author": "Author",
+    "questions": "Questions",
+    "public": "Public"
   }
 }

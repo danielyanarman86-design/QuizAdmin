@@ -9,15 +9,30 @@
     "approveTeacher": "Հաստատել ուսուցչին",
     "rejectTeacher": "Մերժել ուսուցչին",
     "banUser": "Արգելափակել",
-    "totalUsers": "Ընդամենը օգտատեր",
-    "totalSchools": "Ընդամենը դպրոց",
-    "totalQuizzes": "Ընդամենը վիկտորինա",
-    "pendingTeachers": "Սպասող ուսուցիչներ"
+    "totalUsers": "Ընդ. օգտ.",
+    "totalSchools": "Ընդ. դպ.",
+    "totalQuizzes": "Ընդ. վիկտ.",
+    "pendingTeachers": "Սպասում են",
+    "totalAttempts": "Ընդ. փորձ",
+    "avgScore": "Միջ. գնահ.",
+    "usersByRole": "Ըստ դերի",
+    "usersByStatus": "Ըստ կարգ.",
+    "teachers": "Ուսուցիչներ",
+    "students": "Աշակերտներ",
+    "noQuizzesYet": "Վիկ. դեռ չկան",
+    "schoolName": "Անուն",
+    "schoolAddress": "Հասցե",
+    "deleteSchoolConfirm": "Ջնջե՞լ այս դպրոցը",
+    "deleteQuizConfirm": "Ջնջե՞լ այս վիկ.",
+    "accessDenied": "Մուտքն արգելված է։ Միայն SuperAdmin։",
+    "loginFailed": "Մուտքի սխալ",
+    "adminPanel": "Ադմինի վահանակ"
   },
   "auth": {
     "login": "Մուտք",
     "email": "Էլ. փոստ",
-    "password": "Գաղտնաբառ"
+    "password": "Գաղտնաբառ",
+    "logout": "Ելք"
   },
   "common": {
     "loading": "Բեռնվում է...",
@@ -29,6 +44,18 @@
     "active": "Ակտիվ",
     "pending": "Սպասող",
     "rejected": "Մերժված",
-    "banned": "Արգելափակված"
+    "banned": "Արգելափակված",
+    "yes": "Այո",
+    "no": "Ոչ",
+    "user": "Օգտ.",
+    "role": "Դեր",
+    "school": "Դպրոց",
+    "status": "Կարգ.",
+    "actions": "Գործ.",
+    "title": "Վերն.",
+    "category": "Կատ.",
+    "author": "Հեղ.",
+    "questions": "Հարց.",
+    "public": "Հրապ."
   }
 }

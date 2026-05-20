@@ -19,6 +19,7 @@ type FormData = z.infer<typeof schema>;
 
 export default function AdminLoginPage() {
   const t = useTranslations('auth');
+  const tAdmin = useTranslations('admin');
   const router = useRouter();
   const { locale } = useParams();
   const [error, setError] = useState('');
@@ -36,7 +37,7 @@ export default function AdminLoginPage() {
       const user = res.data.user;
 
       if (user.role !== 'superAdmin') {
-        setError('Access denied. SuperAdmin only.');
+        setError(tAdmin('accessDenied'));
         return;
       }
 
@@ -44,7 +45,7 @@ export default function AdminLoginPage() {
       localStorage.setItem('quizrush_admin_user', JSON.stringify(user));
       router.push(`/${locale}/dashboard`);
     } catch (e: any) {
-      setError(e.response?.data?.message || 'Login failed');
+      setError(e.response?.data?.message || tAdmin('loginFailed'));
     } finally {
       setLoading(false);
     }
@@ -75,7 +76,7 @@ export default function AdminLoginPage() {
             <h1 className="text-3xl font-black bg-gradient-to-r from-rose-400 to-violet-400 bg-clip-text text-transparent">
               QuizRush
             </h1>
-            <p className="text-sm text-gray-500 mt-1">Admin Panel</p>
+            <p className="text-sm text-gray-500 mt-1">{tAdmin('adminPanel')}</p>
           </div>
         </div>
 
