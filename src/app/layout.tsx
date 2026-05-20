@@ -6,4 +6,3 @@ export default function RootLayout({
   return children;
 }
 
-export const dynamic = 'force-dynamic';
